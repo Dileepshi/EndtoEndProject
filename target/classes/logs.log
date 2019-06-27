@@ -1,0 +1,6 @@
+15:19:43.261 [main] INFO  resources.BaseClass - Assertion has been completed
+15:19:53.387 [main] INFO  Ivyproject.HomePageTest - Browser Invoked
+15:20:04.225 [main] INFO  Ivyproject.HomePageTest - Navigated to Login page
+15:20:19.978 [main] INFO  Ivyproject.HomePageTest - Test done
+15:20:38.052 [main] INFO  Ivyproject.HomePageTest - Navigated to Login page
+15:20:48.707 [main] INFO  Ivyproject.HomePageTest - Test done

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="146461" started-at="2019-06-26T10:53:41Z" finished-at="2019-06-26T10:56:07Z">
+    <groups>
+    </groups>
+    <test name="ValidateTitleCase" duration-ms="57402" started-at="2019-06-26T10:53:41Z" finished-at="2019-06-26T10:54:38Z">
+      <class name="Ivyproject.ValidateTitleTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Ivyproject.ValidateTitleTest@478190fc]" name="initialize" is-config="true" duration-ms="51726" started-at="2019-06-26T16:23:41Z" finished-at="2019-06-26T16:24:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="FAIL" signature="titlename()[pri:0, instance:Ivyproject.ValidateTitleTest@478190fc]" name="titlename" duration-ms="236" started-at="2019-06-26T16:24:32Z" finished-at="2019-06-26T16:24:33Z">
+          <exception class="junit.framework.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<...ES> but was:<...>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.ComparisonFailure: expected:<...ES> but was:<...>
+	at junit.framework.Assert.assertEquals(Assert.java:81)
+	at junit.framework.Assert.assertEquals(Assert.java:87)
+	at Ivyproject.ValidateTitleTest.titlename(ValidateTitleTest.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titlename -->
+        <test-method status="PASS" signature="closedriver()[pri:0, instance:Ivyproject.ValidateTitleTest@478190fc]" name="closedriver" is-config="true" duration-ms="4624" started-at="2019-06-26T16:24:33Z" finished-at="2019-06-26T16:24:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedriver -->
+      </class> <!-- Ivyproject.ValidateTitleTest -->
+    </test> <!-- ValidateTitleCase -->
+    <test name="ValidateBarCase" duration-ms="11556" started-at="2019-06-26T10:54:38Z" finished-at="2019-06-26T10:54:50Z">
+      <class name="Ivyproject.validateBarTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Ivyproject.validateBarTest@4550bb58]" name="initialize" is-config="true" duration-ms="9339" started-at="2019-06-26T16:24:38Z" finished-at="2019-06-26T16:24:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="navbar()[pri:0, instance:Ivyproject.validateBarTest@4550bb58]" name="navbar" duration-ms="117" started-at="2019-06-26T16:24:48Z" finished-at="2019-06-26T16:24:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navbar -->
+        <test-method status="PASS" signature="closedriver()[pri:0, instance:Ivyproject.validateBarTest@4550bb58]" name="closedriver" is-config="true" duration-ms="2095" started-at="2019-06-26T16:24:48Z" finished-at="2019-06-26T16:24:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedriver -->
+      </class> <!-- Ivyproject.validateBarTest -->
+    </test> <!-- ValidateBarCase -->
+    <test name="HomePageValidationCase" duration-ms="77237" started-at="2019-06-26T10:54:50Z" finished-at="2019-06-26T10:56:07Z">
+      <class name="Ivyproject.HomePageTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Ivyproject.HomePageTest@67c27493]" name="initialize" is-config="true" duration-ms="6363" started-at="2019-06-26T16:24:50Z" finished-at="2019-06-26T16:24:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="navigate(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Ivyproject.HomePageTest@67c27493]" name="navigate" duration-ms="27748" started-at="2019-06-26T16:24:56Z" data-provider="getdata" finished-at="2019-06-26T16:25:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dileep]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dils]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test done]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method status="PASS" signature="navigate(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Ivyproject.HomePageTest@67c27493]" name="navigate" duration-ms="37404" started-at="2019-06-26T16:25:24Z" data-provider="getdata" finished-at="2019-06-26T16:26:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dil]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test done]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method status="PASS" signature="closedriver()[pri:0, instance:Ivyproject.HomePageTest@67c27493]" name="closedriver" is-config="true" duration-ms="5711" started-at="2019-06-26T16:26:01Z" finished-at="2019-06-26T16:26:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedriver -->
+      </class> <!-- Ivyproject.HomePageTest -->
+    </test> <!-- HomePageValidationCase -->
+  </suite> <!-- Suite -->
+</testng-results>
