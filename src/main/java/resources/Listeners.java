@@ -39,14 +39,16 @@ public class Listeners implements ITestListener{
 	}
 
 	public void onStart(ITestContext context) {
-		// TODO Auto-generated method stub
+		System.out.println("test Case is onstart and the name is  " + context.getName());
 		
 	}
 
 	public void onFinish(ITestContext context) {
-		// TODO Auto-generated method stub
+		System.out.println("test Case is onFinish and the name is  " + context.getName());
 		
 	}
+
+	
 
 
 
