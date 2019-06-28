@@ -2,48 +2,48 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="144174" started-at="2019-06-28T07:02:10Z" finished-at="2019-06-28T07:04:34Z">
+  <suite name="Suite" duration-ms="107861" started-at="2019-06-28T08:54:38Z" finished-at="2019-06-28T08:56:26Z">
     <groups>
     </groups>
-    <test name="ValidateTitleCase" duration-ms="62388" started-at="2019-06-28T07:02:10Z" finished-at="2019-06-28T07:03:12Z">
+    <test name="ValidateTitleCase" duration-ms="37073" started-at="2019-06-28T08:54:38Z" finished-at="2019-06-28T08:55:15Z">
       <class name="Ivyproject.ValidateTitleTest">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:Ivyproject.ValidateTitleTest@478190fc]" name="initialize" is-config="true" duration-ms="56696" started-at="2019-06-28T12:32:10Z" finished-at="2019-06-28T12:33:07Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Ivyproject.ValidateTitleTest@478190fc]" name="initialize" is-config="true" duration-ms="32672" started-at="2019-06-28T14:24:38Z" finished-at="2019-06-28T14:25:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="titlename()[pri:0, instance:Ivyproject.ValidateTitleTest@478190fc]" name="titlename" duration-ms="1172" started-at="2019-06-28T12:33:07Z" finished-at="2019-06-28T12:33:08Z">
+        <test-method status="PASS" signature="titlename()[pri:0, instance:Ivyproject.ValidateTitleTest@478190fc]" name="titlename" duration-ms="193" started-at="2019-06-28T14:25:11Z" finished-at="2019-06-28T14:25:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- titlename -->
-        <test-method status="PASS" signature="closedriver()[pri:0, instance:Ivyproject.ValidateTitleTest@478190fc]" name="closedriver" is-config="true" duration-ms="4442" started-at="2019-06-28T12:33:08Z" finished-at="2019-06-28T12:33:12Z">
+        <test-method status="PASS" signature="closedriver()[pri:0, instance:Ivyproject.ValidateTitleTest@478190fc]" name="closedriver" is-config="true" duration-ms="4168" started-at="2019-06-28T14:25:11Z" finished-at="2019-06-28T14:25:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closedriver -->
       </class> <!-- Ivyproject.ValidateTitleTest -->
     </test> <!-- ValidateTitleCase -->
-    <test name="ValidateBarCase" duration-ms="11836" started-at="2019-06-28T07:03:12Z" finished-at="2019-06-28T07:03:24Z">
+    <test name="ValidateBarCase" duration-ms="11776" started-at="2019-06-28T08:55:16Z" finished-at="2019-06-28T08:55:27Z">
       <class name="Ivyproject.validateBarTest">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:Ivyproject.validateBarTest@4550bb58]" name="initialize" is-config="true" duration-ms="9593" started-at="2019-06-28T12:33:12Z" finished-at="2019-06-28T12:33:22Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Ivyproject.validateBarTest@4550bb58]" name="initialize" is-config="true" duration-ms="9743" started-at="2019-06-28T14:25:16Z" finished-at="2019-06-28T14:25:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="navbar()[pri:0, instance:Ivyproject.validateBarTest@4550bb58]" name="navbar" duration-ms="74" started-at="2019-06-28T12:33:22Z" finished-at="2019-06-28T12:33:22Z">
+        <test-method status="PASS" signature="navbar()[pri:0, instance:Ivyproject.validateBarTest@4550bb58]" name="navbar" duration-ms="70" started-at="2019-06-28T14:25:25Z" finished-at="2019-06-28T14:25:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navbar -->
-        <test-method status="PASS" signature="closedriver()[pri:0, instance:Ivyproject.validateBarTest@4550bb58]" name="closedriver" is-config="true" duration-ms="2166" started-at="2019-06-28T12:33:22Z" finished-at="2019-06-28T12:33:24Z">
+        <test-method status="PASS" signature="closedriver()[pri:0, instance:Ivyproject.validateBarTest@4550bb58]" name="closedriver" is-config="true" duration-ms="1960" started-at="2019-06-28T14:25:25Z" finished-at="2019-06-28T14:25:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closedriver -->
       </class> <!-- Ivyproject.validateBarTest -->
     </test> <!-- ValidateBarCase -->
-    <test name="HomePageValidationCase" duration-ms="69881" started-at="2019-06-28T07:03:24Z" finished-at="2019-06-28T07:04:34Z">
+    <test name="HomePageValidationCase" duration-ms="58754" started-at="2019-06-28T08:55:27Z" finished-at="2019-06-28T08:56:26Z">
       <class name="Ivyproject.HomePageTest">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:Ivyproject.HomePageTest@67c27493]" name="initialize" is-config="true" duration-ms="7617" started-at="2019-06-28T12:33:24Z" finished-at="2019-06-28T12:33:32Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Ivyproject.HomePageTest@67c27493]" name="initialize" is-config="true" duration-ms="5838" started-at="2019-06-28T14:25:27Z" finished-at="2019-06-28T14:25:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="navigate(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Ivyproject.HomePageTest@67c27493]" name="navigate" duration-ms="28301" started-at="2019-06-28T12:33:32Z" data-provider="getdata" finished-at="2019-06-28T12:34:00Z">
+        <test-method status="PASS" signature="navigate(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Ivyproject.HomePageTest@67c27493]" name="navigate" duration-ms="22707" started-at="2019-06-28T14:25:33Z" data-provider="getdata" finished-at="2019-06-28T14:25:56Z">
           <params>
             <param index="0">
               <value>
@@ -64,7 +64,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigate -->
-        <test-method status="PASS" signature="navigate(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Ivyproject.HomePageTest@67c27493]" name="navigate" duration-ms="30061" started-at="2019-06-28T12:34:00Z" data-provider="getdata" finished-at="2019-06-28T12:34:30Z">
+        <test-method status="PASS" signature="navigate(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Ivyproject.HomePageTest@67c27493]" name="navigate" duration-ms="26787" started-at="2019-06-28T14:25:56Z" data-provider="getdata" finished-at="2019-06-28T14:26:23Z">
           <params>
             <param index="0">
               <value>
@@ -85,7 +85,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigate -->
-        <test-method status="PASS" signature="closedriver()[pri:0, instance:Ivyproject.HomePageTest@67c27493]" name="closedriver" is-config="true" duration-ms="3889" started-at="2019-06-28T12:34:30Z" finished-at="2019-06-28T12:34:34Z">
+        <test-method status="PASS" signature="closedriver()[pri:0, instance:Ivyproject.HomePageTest@67c27493]" name="closedriver" is-config="true" duration-ms="3395" started-at="2019-06-28T14:26:23Z" finished-at="2019-06-28T14:26:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closedriver -->
