@@ -1,8 +1,0 @@
-17:22:26.606 [main] INFO  Ivyproject.HomePageTest - Test done
-17:22:51.739 [main] INFO  Ivyproject.HomePageTest - Navigated to Login page
-17:23:00.056 [main] INFO  Ivyproject.HomePageTest - Test done
-15:19:10.153 [main] INFO  resources.BaseClass - Browser Invoked
-15:19:26.311 [main] INFO  resources.BaseClass - Navigated to Login page
-15:19:27.104 [main] INFO  resources.BaseClass - Text Message has been validated
-15:19:39.250 [main] INFO  resources.BaseClass - Browser Invoked
-15:19:43.097 [main] INFO  resources.BaseClass - Navigated to Login page
