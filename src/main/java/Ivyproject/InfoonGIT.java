@@ -9,5 +9,4 @@ public class InfoonGIT {
 	// $ git push -u origin master - to move the file to github
 	// $ git pull origin master - to get the files from github to git
 	
-
 }
