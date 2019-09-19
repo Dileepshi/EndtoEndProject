@@ -1,95 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="107861" started-at="2019-06-28T08:54:38Z" finished-at="2019-06-28T08:56:26Z">
+  <suite name="Default suite" duration-ms="14863" started-at="2019-08-22T07:58:49Z" finished-at="2019-08-22T07:59:04Z">
     <groups>
     </groups>
-    <test name="ValidateTitleCase" duration-ms="37073" started-at="2019-06-28T08:54:38Z" finished-at="2019-06-28T08:55:15Z">
+    <test name="Default test" duration-ms="14863" started-at="2019-08-22T07:58:49Z" finished-at="2019-08-22T07:59:04Z">
       <class name="Ivyproject.ValidateTitleTest">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:Ivyproject.ValidateTitleTest@478190fc]" name="initialize" is-config="true" duration-ms="32672" started-at="2019-06-28T14:24:38Z" finished-at="2019-06-28T14:25:11Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Ivyproject.ValidateTitleTest@37afeb11]" name="initialize" is-config="true" duration-ms="10068" started-at="2019-08-22T13:28:49Z" finished-at="2019-08-22T13:28:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="titlename()[pri:0, instance:Ivyproject.ValidateTitleTest@478190fc]" name="titlename" duration-ms="193" started-at="2019-06-28T14:25:11Z" finished-at="2019-06-28T14:25:11Z">
+        <test-method status="PASS" signature="titlename()[pri:0, instance:Ivyproject.ValidateTitleTest@37afeb11]" name="titlename" duration-ms="94" started-at="2019-08-22T13:28:59Z" finished-at="2019-08-22T13:28:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- titlename -->
-        <test-method status="PASS" signature="closedriver()[pri:0, instance:Ivyproject.ValidateTitleTest@478190fc]" name="closedriver" is-config="true" duration-ms="4168" started-at="2019-06-28T14:25:11Z" finished-at="2019-06-28T14:25:15Z">
+        <test-method status="PASS" signature="closedriver()[pri:0, instance:Ivyproject.ValidateTitleTest@37afeb11]" name="closedriver" is-config="true" duration-ms="4666" started-at="2019-08-22T13:28:59Z" finished-at="2019-08-22T13:29:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closedriver -->
       </class> <!-- Ivyproject.ValidateTitleTest -->
-    </test> <!-- ValidateTitleCase -->
-    <test name="ValidateBarCase" duration-ms="11776" started-at="2019-06-28T08:55:16Z" finished-at="2019-06-28T08:55:27Z">
-      <class name="Ivyproject.validateBarTest">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:Ivyproject.validateBarTest@4550bb58]" name="initialize" is-config="true" duration-ms="9743" started-at="2019-06-28T14:25:16Z" finished-at="2019-06-28T14:25:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="navbar()[pri:0, instance:Ivyproject.validateBarTest@4550bb58]" name="navbar" duration-ms="70" started-at="2019-06-28T14:25:25Z" finished-at="2019-06-28T14:25:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- navbar -->
-        <test-method status="PASS" signature="closedriver()[pri:0, instance:Ivyproject.validateBarTest@4550bb58]" name="closedriver" is-config="true" duration-ms="1960" started-at="2019-06-28T14:25:25Z" finished-at="2019-06-28T14:25:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closedriver -->
-      </class> <!-- Ivyproject.validateBarTest -->
-    </test> <!-- ValidateBarCase -->
-    <test name="HomePageValidationCase" duration-ms="58754" started-at="2019-06-28T08:55:27Z" finished-at="2019-06-28T08:56:26Z">
-      <class name="Ivyproject.HomePageTest">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:Ivyproject.HomePageTest@67c27493]" name="initialize" is-config="true" duration-ms="5838" started-at="2019-06-28T14:25:27Z" finished-at="2019-06-28T14:25:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="navigate(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Ivyproject.HomePageTest@67c27493]" name="navigate" duration-ms="22707" started-at="2019-06-28T14:25:33Z" data-provider="getdata" finished-at="2019-06-28T14:25:56Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Dileep]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[dils]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Test done]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- navigate -->
-        <test-method status="PASS" signature="navigate(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Ivyproject.HomePageTest@67c27493]" name="navigate" duration-ms="26787" started-at="2019-06-28T14:25:56Z" data-provider="getdata" finished-at="2019-06-28T14:26:23Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Dil]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[hi]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Test done]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- navigate -->
-        <test-method status="PASS" signature="closedriver()[pri:0, instance:Ivyproject.HomePageTest@67c27493]" name="closedriver" is-config="true" duration-ms="3395" started-at="2019-06-28T14:26:23Z" finished-at="2019-06-28T14:26:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closedriver -->
-      </class> <!-- Ivyproject.HomePageTest -->
-    </test> <!-- HomePageValidationCase -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

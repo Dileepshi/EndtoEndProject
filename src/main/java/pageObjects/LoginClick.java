@@ -23,7 +23,7 @@ public class LoginClick {
 
 	}
 
-	public WebElement gettext() {
+	public WebElement gettiltetext() {
 
 		return driver.findElement(title);
 

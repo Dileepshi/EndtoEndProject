@@ -30,9 +30,9 @@ public class ValidateTitleTest extends BaseClass {
 	public void titlename() throws IOException {
 
 		LoginClick l = new LoginClick(driver);
-		l.gettext().getText();
+		l.gettiltetext().getText();
 
-		Assert.assertEquals(l.gettext().getText(), "FEATURED COURSES");
+		Assert.assertEquals(l.gettiltetext().getText(), "FEATURED COURSES");
 		Logs.info("Text Message has been validated");
 
 	}
