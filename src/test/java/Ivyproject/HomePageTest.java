@@ -20,7 +20,7 @@ public class HomePageTest extends BaseClass {
 	public void initialize() throws IOException {
 
 		driver = initializedriver();
-		Logs.info("Browser Invoked");
+		Logs.info("Browser Invoked and this is branch");
 	}
 
 	@Test(dataProvider = "getdata")
